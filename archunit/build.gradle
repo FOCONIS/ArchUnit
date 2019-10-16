@@ -2,6 +2,9 @@ apply plugin: 'idea'
 
 ext.moduleName = 'com.tngtech.archunit'
 
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
+
 dependencies {
     compile dependency.asm
     compile dependency.guava
